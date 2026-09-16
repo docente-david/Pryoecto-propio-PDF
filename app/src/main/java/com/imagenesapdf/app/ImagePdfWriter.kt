@@ -158,9 +158,10 @@ class ImagePdfWriter(private val context: Context) {
     private fun encodeImage(uri: Uri, quality: Int): JpegImage {
         val resolver = context.contentResolver
 
+        // Con inJustDecodeBounds=true decodeStream siempre devuelve null: solo interesan outWidth/outHeight.
         val bounds = BitmapFactory.Options().apply { inJustDecodeBounds = true }
-        resolver.openInputStream(uri)?.use { BitmapFactory.decodeStream(it, null, bounds) }
-            ?: throw IOException("No se pudo abrir la imagen")
+        val probe = resolver.openInputStream(uri) ?: throw IOException("No se pudo abrir la imagen")
+        probe.use { BitmapFactory.decodeStream(it, null, bounds) }
         if (bounds.outWidth <= 0 || bounds.outHeight <= 0) throw IOException("Formato de imagen no reconocido")
 
         var sample = 1
@@ -169,7 +170,8 @@ class ImagePdfWriter(private val context: Context) {
             inSampleSize = sample
             inPreferredConfig = Bitmap.Config.ARGB_8888
         }
-        var bitmap = resolver.openInputStream(uri)?.use { BitmapFactory.decodeStream(it, null, opts) }
+        val input = resolver.openInputStream(uri) ?: throw IOException("No se pudo abrir la imagen")
+        var bitmap = input.use { BitmapFactory.decodeStream(it, null, opts) }
             ?: throw IOException("No se pudo decodificar la imagen")
 
         val orientation = try {
