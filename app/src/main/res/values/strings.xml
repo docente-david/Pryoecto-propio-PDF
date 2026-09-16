@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Imágenes a PDF</string>
+
+    <!-- Pantalla principal -->
+    <string name="empty_title">Convierte tus imágenes en un PDF</string>
+    <string name="empty_subtitle">Elige una o varias fotos de tu galería. Cada imagen será una página del documento.</string>
+    <string name="select_images">Seleccionar imágenes</string>
+    <string name="add_images">Agregar</string>
+    <string name="create_pdf">Crear PDF</string>
+    <string name="images_count_one">1 imagen · 1 página</string>
+    <string name="images_count_many">%1$d imágenes · %1$d páginas</string>
+    <string name="reorder_hint">Mantén presionada una imagen para cambiarla de orden.</string>
+    <string name="remove_image">Quitar imagen</string>
+    <string name="menu_clear">Quitar todas</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="about_message">Imágenes a PDF %1$s\n\nConvierte fotos de tu galería en un documento PDF, sin conexión y sin anuncios. Los archivos se guardan en Descargas / Imagenes a PDF.</string>
+    <string name="page_number">Página %1$d</string>
+    <string name="images_added">%1$d imágenes agregadas</string>
+    <string name="image_added">1 imagen agregada</string>
+    <string name="images_limit">Puedes agregar hasta %1$d imágenes por documento.</string>
+    <string name="permission_needed">Se necesita permiso de almacenamiento para guardar el PDF en Descargas.</string>
+    <string name="permission_settings">Ajustes</string>
+
+    <!-- Hoja de opciones -->
+    <string name="options_title">Opciones del PDF</string>
+    <string name="file_name_label">Nombre del archivo</string>
+    <string name="file_name_helper">Se guardará como .pdf en Descargas / Imagenes a PDF</string>
+    <string name="file_name_error">Escribe un nombre para el archivo.</string>
+    <string name="page_size_label">Tamaño de página</string>
+    <string name="page_size_a4">A4</string>
+    <string name="page_size_letter">Carta</string>
+    <string name="page_size_fit">Ajustar a la imagen</string>
+    <string name="orientation_label">Orientación</string>
+    <string name="orientation_auto">Automática</string>
+    <string name="orientation_portrait">Vertical</string>
+    <string name="orientation_landscape">Horizontal</string>
+    <string name="quality_label">Calidad de imagen</string>
+    <string name="quality_value">%1$d %%</string>
+    <string name="quality_hint_high">Máxima nitidez, archivo más pesado</string>
+    <string name="quality_hint_medium">Buen equilibrio entre nitidez y peso</string>
+    <string name="quality_hint_low">Archivo liviano, ideal para enviar por chat</string>
+    <string name="generate">Generar PDF</string>
+    <string name="cancel">Cancelar</string>
+
+    <!-- Progreso y resultado -->
+    <string name="progress_preparing">Preparando…</string>
+    <string name="progress_page">Procesando imagen %1$d de %2$d…</string>
+    <string name="progress_saving">Guardando el archivo…</string>
+    <string name="result_title">PDF creado</string>
+    <string name="result_message">%1$s\n\nGuardado en Descargas / Imagenes a PDF (%2$s, %3$d páginas).</string>
+    <string name="result_share">Compartir</string>
+    <string name="result_open">Abrir</string>
+    <string name="result_done">Listo</string>
+    <string name="share_title">Compartir PDF</string>
+    <string name="error_no_viewer">No hay ninguna aplicación instalada para abrir PDF.</string>
+    <string name="error_generic">No se pudo crear el PDF: %1$s</string>
+    <string name="error_image">No se pudo leer la imagen %1$d. Quítala e intenta de nuevo.</string>
+    <string name="error_storage">No se pudo guardar el archivo en Descargas.</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#0B5FA5</color>
+    <color name="brand_on_primary">#FFFFFF</color>
+    <color name="brand_primary_container">#D4E4F7</color>
+    <color name="brand_on_primary_container">#062E52</color>
+    <color name="brand_secondary">#C77700</color>
+    <color name="brand_on_secondary">#FFFFFF</color>
+    <color name="brand_secondary_container">#FFDDB5</color>
+    <color name="brand_on_secondary_container">#3D2400</color>
+    <color name="brand_surface">#F7F9FC</color>
+    <color name="brand_on_surface">#1A1C1F</color>
+    <color name="brand_surface_variant">#E1E5EC</color>
+    <color name="brand_outline">#8A9199</color>
+
+    <color name="brand_primary_dark">#9FCAFF</color>
+    <color name="brand_on_primary_dark">#003259</color>
+    <color name="brand_primary_container_dark">#00497F</color>
+    <color name="brand_on_primary_container_dark">#D4E4F7</color>
+    <color name="brand_secondary_dark">#FFB95A</color>
+    <color name="brand_on_secondary_dark">#452B00</color>
+    <color name="brand_secondary_container_dark">#633F00</color>
+    <color name="brand_on_secondary_container_dark">#FFDDB5</color>
+    <color name="brand_surface_dark">#121417</color>
+    <color name="brand_on_surface_dark">#E3E5E9</color>
+    <color name="brand_surface_variant_dark">#3F454D</color>
+    <color name="brand_outline_dark">#8A9199</color>
+
+    <color name="badge_background">#B3000000</color>
+    <color name="ic_launcher_background">#0B5FA5</color>
+</resources>

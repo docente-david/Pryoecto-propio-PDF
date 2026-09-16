@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ilustración del estado vacío: dos fotos apiladas que se convierten en un documento. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="120dp"
+    android:viewportWidth="160"
+    android:viewportHeight="120">
+    <!-- Foto trasera -->
+    <path
+        android:fillColor="?attr/colorSurfaceVariant"
+        android:pathData="M18,22 L70,14 L78,66 L26,74 Z" />
+    <!-- Foto delantera -->
+    <path
+        android:fillColor="?attr/colorPrimaryContainer"
+        android:pathData="M14,34 L66,34 L66,86 L14,86 Z" />
+    <path
+        android:fillColor="?attr/colorPrimary"
+        android:pathData="M14,86 L34,60 L46,74 L54,64 L66,80 L66,86 Z" />
+    <path
+        android:fillColor="?attr/colorSecondary"
+        android:pathData="M52,46 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+    <!-- Flecha -->
+    <path
+        android:fillColor="?attr/colorOutline"
+        android:pathData="M78,58 L96,58 L96,52 L108,60 L96,68 L96,62 L78,62 Z" />
+    <!-- Documento -->
+    <path
+        android:fillColor="?attr/colorSurface"
+        android:strokeColor="?attr/colorOutline"
+        android:strokeWidth="2"
+        android:pathData="M116,26 L138,26 L150,38 L150,94 L116,94 Z" />
+    <path
+        android:fillColor="?attr/colorSurfaceVariant"
+        android:pathData="M138,26 L138,38 L150,38 Z" />
+    <path
+        android:fillColor="?attr/colorPrimaryContainer"
+        android:pathData="M122,48 L144,48 L144,70 L122,70 Z" />
+    <path
+        android:fillColor="?attr/colorPrimary"
+        android:pathData="M122,70 L130,60 L135,66 L138,62 L144,68 L144,70 Z" />
+    <path
+        android:fillColor="?attr/colorOutline"
+        android:pathData="M122,78 L144,78 L144,81 L122,81 Z M122,85 L138,85 L138,88 L122,88 Z" />
+</vector>
